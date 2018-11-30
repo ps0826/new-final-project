@@ -1,0 +1,12 @@
+extends search
+
+block search-content
+    h1.title Which movie do you want to search?
+    #notifications
+    form#movie-search
+        input#movie-name(type="text", placeholder="Movie name")
+        button(type="submit") Search
+    #movieList
+        ul
+        
+    script(src="/js/search_movie.js")

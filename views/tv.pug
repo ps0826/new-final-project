@@ -1,0 +1,12 @@
+extends search
+
+block search-content
+    h1.title Which TV do you want to search?
+    #notifications
+    form#tv-search
+        input#tv-name(type="text", placeholder="Movie name")
+        button(type="submit") Search
+    #tvList
+        ul
+        
+    script(src="/js/search_tv.js")

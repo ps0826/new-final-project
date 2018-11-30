@@ -1,0 +1,8 @@
+extends search
+
+block search-content
+    h1 Info about the movie #{id}!
+    div#post_content This is what I want to post to twitter version 2
+    form#twitter-share-button
+        button(type="submit") Tweet
+    script(src="/js/post_twitter.js")

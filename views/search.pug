@@ -1,0 +1,18 @@
+extends nav
+
+block main-content
+    nav.navbar(role="navigation", aria-label="main navigation")
+        .navbar-brand
+            h1.navbar-item Search for your interests
+        a.navbar-item(href="/movie") Movie
+        a.navbar-item(href="/tv") Tv
+        
+
+    .section
+        .container
+            div id #{user.id}! You're good to go!
+            div kind #{user.name}! You're good to go!
+            div photos #{user.photos[0].value}! You're good to go!
+            
+
+            block search-content

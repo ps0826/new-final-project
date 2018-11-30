@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    nav.navbar(role="navigation", aria-label="main navigation")
+        .navbar-brand
+            h1.navbar-item Final Project
+        a.navbar-item(href="/") Homepage
+        a.navbar-item(href="/auth/login") Login
+        a.navbar-item(href="/auth/logout") Logout
+
+    .section
+        .container
+            block main-content

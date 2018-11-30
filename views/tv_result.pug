@@ -1,0 +1,14 @@
+extends search
+
+block search-content
+    h1 Info about the movie #{name}!
+    div#post_content This is what I want to post to twitter
+    //- a(href="https://twitter.com/share?ref_src=twsrc%5Etfw" 
+    //-     class="twitter-share-button" 
+    //-     data-show-count="false"
+    //-     data-text = 'hello world') Tweet
+    
+    //- script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
+    form#twitter-share-button
+        button(type="submit") Tweet
+    script(src="/js/post_twitter.js")

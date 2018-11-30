@@ -1,4 +1,4 @@
-This is my final project for csc 365 Internet Programing class
+#This is my final project for csc 365 Internet Programing class
 
 For this project, we use The Movie DB api to shows the movie search or tv search results to the users.
 
